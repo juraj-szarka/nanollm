@@ -1,0 +1,15 @@
+# Ignore the virtual environment
+venv/
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore saved model weights (they can be too large for GitHub)
+*.pth
+
+# Ignore local system files
+.DS_Store
+
+dataset.txt
